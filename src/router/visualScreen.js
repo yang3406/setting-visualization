@@ -1,4 +1,9 @@
 export default [{
-  path: 'edit',
-  component: () => import('../views/visualScreen/edit')
-}]
+  path: '/visualScreen/content',
+  component: () => import('../views/visualScreen/content/index')
+},
+{
+  path: '/visualScreen/content/edit',
+  component: () => import('../views/visualScreen/content/editor/index')
+}
+]

@@ -1,0 +1,15 @@
+{
+  "name": "dv-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "release/dvReport.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "report",
+    "vue"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/index.vue'
-import VisualScreen from './visualScreen'
+import VisualScreenPath from './visualScreen'
 
 Vue.use(VueRouter)
 
@@ -10,14 +10,7 @@ const routes = [{
   name: 'Home',
   component: Home
 },
-{
-  path: '/visualScreen',
-  component: () => import('../views/visualScreen/index'),
-  meta: {
-    name: '视化入口'
-  },
-  children: VisualScreen
-}
+...VisualScreenPath
 ]
 
 const router = new VueRouter({

@@ -19,7 +19,7 @@ export default {
         {
           name: "visualScreen",
           label: "可视化屏幕",
-          path: "/visualScreen/edit"
+          path: "/visualScreen/content"
         },
         { name: "blog", label: "blog项目", path: "/blog/edit" },
         { name: "visualScreen", label: "kiki", path: "/kiki/edit" }
